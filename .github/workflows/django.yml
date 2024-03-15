@@ -28,7 +28,7 @@ jobs:
     - name: Run Tests
       run: |
         python manage.py test
-            - name: Cache
+               - name: Cache
   uses: actions/cache@v4.0.1
   with:
     # A list of files, directories, and wildcard patterns to cache and restore
